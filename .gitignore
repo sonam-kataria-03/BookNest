@@ -1,26 +1,13 @@
-# Dependencies
 node_modules/
 **/node_modules/
-
-# Environment variables and secrets
 .env
 .env.*
 !.env.example
-
-# Build files
 dist/
 build/
-
-# Logs
 *.log
 npm-debug.log*
-
-# Uploads
 **/uploads/*
-
-# OS files
 .DS_Store
 Thumbs.db
-
-# Editor
 .vscode/
